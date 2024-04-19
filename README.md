@@ -21,6 +21,7 @@ To automate the time-based running of AWS ECS (Fargate) Services, we can use AWS
 ## Prerequisites
 
 - `AWS IAM` - IAM User
+- `S3` - S3 bucket for terraform state
 - `terraform` - version 1.5.0
 
 ## Usage
