@@ -1,0 +1,4 @@
+project        = "scheduler"
+project_id     = "ecs-scheduler"
+resources_name = "my-scheduler"
+env            = "dev"

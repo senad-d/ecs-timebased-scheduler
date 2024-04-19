@@ -17,3 +17,19 @@ To automate the time-based running of AWS ECS (Fargate) Services, we can use AWS
 
 ---
 ![ecs_scheduler](https://github.com/senad-d/ecs-timebased-scheduler/assets/112484166/2a0800a2-61ee-470f-86de-da7dd351f317)
+
+## Prerequisites
+
+- `AWS IAM` - IAM User
+- `terraform` - version 1.5.0
+
+## Usage
+
+```shell
+terraform init -backend-config=backend/dev.tfvars
+terraform apply -var-file=variables/dev.tfvars   
+```
+
+## Documentation
+
+- [terraform](https://developer.hashicorp.com/terraform/docs)
